@@ -1,0 +1,131 @@
+body,
+html{
+	margin:  0; 
+	padding: 0;
+	font-size:16px;
+	color:green;
+}
+
+body{
+	background:#ccc url(https://1h4hfe10xz8m3g3xkh2wb9lc-wpengine.netdna-ssl.com/blog/files/2015/08/thestocks-imagem.jpg) center top no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+form{
+	background-color: rgba(41, 35, 41, 0.4);
+	font-weight: bold;
+}
+
+.input-field label.active {
+
+/* 	font-size:19px;
+    color: rgba(255, 255, 255, 0.8); */
+}
+
+/* .material-icons{
+	color: black;
+} */
+
+table{
+	background-color: rgba(41, 35, 41, 0.4);
+}
+
+thead{
+	color: rgba(255, 255, 255, 0.8);
+	font-size:16px;
+}
+
+tbody td{
+	color: black;
+	font-size:15px;
+	font-weight: bold;
+}
+
+/* .row {  
+  position:relative;
+  left:15%;
+}  */
+
+::placeholder{
+	color: rgba(5, 5, 5, 0.9);
+	}
+
+@media screen and (max-width: 899px) {
+
+	::placeholder{
+		color: rgba(255, 255, 255, 0.0);
+	}
+		
+	.row .col.s4 {
+		width: 50%;
+	}
+	
+	.row .col.s8 {
+		width: 100%;
+	}
+	
+	.row {  
+ 	 	position:relative;
+ 	 	left:0%;
+	} 
+	
+	material-icons{
+		font-size: 10px;
+	}
+}
+
+
+@media screen and (min-width: 900px) {
+	tbody {
+	  display:block;
+	  height:211px;
+	  overflow:auto;
+	  color: rgba(255, 255, 255, 0.8);
+	}
+	thead, tbody tr {
+	  display:table;
+	  width:100%;
+	  table-layout:fixed;
+	}
+	thead {
+	  width: calc( 100% - 1em )
+	}
+	table {
+	  width:100%;
+	}
+}
+
+
+footer{
+width: 100%;
+height: 50px;
+margin: auto;
+bottom: 0;
+position: fixed;
+}
+
+.page-footer-custom .footer-copyright {
+  overflow: hidden;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 14px 0px;
+  color: black;
+  background-color: #fff;
+}
+	
+/* .sidenav {
+  position: fixed;
+  width: 280px;
+} */

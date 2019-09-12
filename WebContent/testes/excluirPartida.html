@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exclui Partida</title>
+</head>
+<body>
+
+	<jsp:include page="../../index.jsp"/>
+	
+	<h1>Exclui Partida</h1>
+	<hr />
+	<form action="/projetoBase/partida?Rules=ExcluirPartida" method="POST">
+		Código da Partida que deseja excluir:<input type="text" name="codPartidaExc"/><br />	
+		<input type="submit" value="Excluir" />
+	</form>
+</body>
+</html>

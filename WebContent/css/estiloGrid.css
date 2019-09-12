@@ -1,0 +1,54 @@
+#gridListaAvioes
+{	
+	position:relative;
+	left:28%;
+	top:25em;
+	height: 300px;
+	width: 800px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+#gridListaChegadas
+{	
+	position:relative;
+	left:28%;
+	top:25em;
+	height: 300px;
+	width: 800px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+#gridListaCompanhias
+{	
+	position:relative;
+	left:28%;
+	top:25em;
+	height: 300px;
+	width: 800px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+#gridListaModelos
+{	
+	position:relative;
+	left:28%;
+	top:25em;
+	height: 300px;
+	width: 800px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+#gridListaPartidas
+{	
+	position:relative;
+	left:28%;
+	top:25em;
+	height: 300px;
+	width: 800px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}

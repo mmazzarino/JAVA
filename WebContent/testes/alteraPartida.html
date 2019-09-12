@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulario Altera Partida</title>
+</head>
+<body>
+
+	<jsp:include page="../../index.jsp"/>
+	
+	<h1>Formulario Altera Partida</h1>
+	<hr />
+	<form action="/projetoBase/partida?Rules=AlteraPartida" method="POST">
+		Código da Partida que deseja alterar:<input type="text" name="codPartidaAlt"/><br />
+		Código da Partida:<input type="text" name="codPartida"/><br />
+		Data Partida:<input type="datetime-local" name="dataPartida"/><br />	
+		Código do Avião:<input type="text" name="codAviao"/><br />	
+		<input type="submit" value="Alterar" />
+	</form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://getahead.org/dwr/dwr30.dtd">
+
+<dwr>
+  <allow>
+    <create creator="new" javascript="JDate">
+      <param name="class" value="java.util.Date"/>
+    </create>
+    
+    <create creator="new" javascript="ListaAvioesJS">
+      <param name="class" value="components.avioes.ListaTodosAvioesRules"/>
+    </create>
+    
+    <create creator="new" javascript="AddAviaoJS">
+      <param name="class" value="components.avioes.AddAviaoRules"/>
+    </create>
+
+	<create creator="new" javascript="AlteraAviaoJS">
+      <param name="class" value="components.avioes.AlteraAviaoRules"/>
+    </create>
+  
+	<create creator="new" javascript="ExcluiAviaoJS">
+      <param name="class" value="components.avioes.ExcluirAviaoRules"/>
+    </create> 
+    
+    <create creator="new" javascript="AddChegadaJS">
+      <param name="class" value="components.chegadas.AddChegadaRules"/>
+    </create> 
+    
+    <create creator="new" javascript="ListaChegadasJS">
+      <param name="class" value="components.chegadas.ListaTodasChegadasRules"/>
+    </create> 
+    
+    <create creator="new" javascript="AlteraChegadaJS">
+      <param name="class" value="components.chegadas.AlteraChegadaRules"/>
+    </create> 
+    
+    <create creator="new" javascript="ExcluiChegadaJS">
+      <param name="class" value="components.chegadas.ExcluirChegadaRules"/>
+    </create> 
+    
+    <create creator="new" javascript="AddCompanhiaJS">
+      <param name="class" value="components.companhiasAereas.AddCompanhiaRules"/>
+    </create> 
+    
+    <create creator="new" javascript="ListaCompanhiasJS">
+      <param name="class" value="components.companhiasAereas.ListaTodasCompanhiasRules"/>
+    </create>
+    
+    <create creator="new" javascript="AlteraCompanhiaJS">
+      <param name="class" value="components.companhiasAereas.AlteraCompanhiaRules"/>
+    </create>
+    
+    <create creator="new" javascript="ExcluiCompanhiaJS">
+      <param name="class" value="components.companhiasAereas.ExcluirCompanhiaRules"/>
+    </create>
+    
+    <create creator="new" javascript="AddModeloJS">
+      <param name="class" value="components.modelos.AddModeloRules"/>
+    </create>
+    
+    <create creator="new" javascript="AlteraModeloJS">
+      <param name="class" value="components.modelos.AlteraModeloRules"/>
+    </create>
+    
+    <create creator="new" javascript="ExcluiModeloJS">
+      <param name="class" value="components.modelos.ExcluirModeloRules"/>
+    </create>
+    
+    <create creator="new" javascript="ListaModelosJS">
+      <param name="class" value="components.modelos.ListaTodosModelosRules"/>
+    </create>
+    
+    <create creator="new" javascript="AddPartidaJS">
+      <param name="class" value="components.partidas.AddPartidaRules"/>
+    </create>
+    
+    <create creator="new" javascript="AlteraPartidaJS">
+      <param name="class" value="components.partidas.AlteraPartidaRules"/>
+    </create>
+    
+    <create creator="new" javascript="ExcluiPartidaJS">
+      <param name="class" value="components.partidas.ExcluirPartidaRules"/>
+    </create>
+    
+    <create creator="new" javascript="ListaPartidasJS">
+      <param name="class" value="components.partidas.ListaTodasPartidasRules"/>
+    </create>
+    
+  </allow>
+</dwr>
+

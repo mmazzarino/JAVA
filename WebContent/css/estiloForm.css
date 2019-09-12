@@ -1,0 +1,46 @@
+
+#area
+{
+  position:relative;
+  left:28%;
+  top:2em;
+  width:20%;
+  height:20%;
+}
+
+#area #formulario
+{
+  position:absolute;
+  display:block;   
+}
+ 
+fieldset
+{
+  background-color:#C0C0C0;
+  width:800px;
+  height:200px;
+  z-index:1
+}
+
+legend
+{
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";
+  font-size:24px;
+}
+
+#esquerda
+{
+  position:relative;
+  left:1%;
+  margin-right:50px;
+}
+
+#direita
+{
+  position:relative;
+  left:3%;
+  margin-right:50px;
+}
+
+

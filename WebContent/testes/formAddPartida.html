@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulario Adcionar Partida</title>
+</head>
+<body>
+
+	<jsp:include page="../../index.jsp"/>
+	
+	<h1>Formulario Adcionar Partida</h1>
+	<hr />
+	<form action="/projetoBase/partida?Rules=AddPartida" method="POST">
+		Código da Partida:<input type="text" name="codPartida"/><br />
+		Data da Partida:<input type="datetime-local" name="dataPartida"/><br />
+		Código do Aviao:<input type="text" name="codAviao"/><br />		
+		<input type="submit" value="Gravar" />
+	</form>
+</body>
+</html>
+
