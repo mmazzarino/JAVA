@@ -9,7 +9,7 @@ public class ConnectionFactory {
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			System.out.println("Conectando ao banco");
-			return DriverManager.getConnection("jdbc:sqlserver://DESKTOP-MC0H5HM\\SQLEXPRESS:1433;databaseName=Waysys", "", "");
+			return DriverManager.getConnection("jdbc:sqlserver://DESKTOP-nomePC\\SQLEXPRESS:porta;databaseName=nomeBanco", "", "");
 		} catch (ClassNotFoundException e) {
 			throw new SQLException(e.getMessage());
 		}
